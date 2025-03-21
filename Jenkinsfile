@@ -14,7 +14,7 @@ pipeline{
         }
         stage("compile"){
             steps{
-                bat 'javac pass_cheker.java'
+                bat '"C:/Program Files/Java/jdk-21/javac" pass_cheker.java'
             }
         }
         stage("run java"){
