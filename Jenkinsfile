@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("cloning"){
             steps{
-                git url="https://github.com/User-coder07/checker.git" , branch: 'main'
+                git url: "https://github.com/User-coder07/checker.git" , branch: 'main'
                 echo 'repository added'
             }
             
