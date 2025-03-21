@@ -22,5 +22,5 @@ pipeline{
                 bat 'java pass_cheker'
             }
         }
-        }
     }
+}
