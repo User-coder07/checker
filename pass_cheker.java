@@ -1,6 +1,6 @@
 import java.security.SecureRandom;
 
-public class PasswordChecker {
+public class pass_cheker {
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
     
     public static String generatePassword(int length) {
